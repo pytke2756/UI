@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="inputs">
+        <div class="inputs_margins">
+            <div>
+                <label for="szoveg">Mintaszöveg:</label><br>
+                <input type="text" name="szoveg" id="szoveg">
+                <div id="szoveg_hiba"></div>
+            </div>
+            <div>
+                <label for="betu">Betűméret:</label><br>
+                <input type="number" name="betu" id="betu" min="0">
+            </div>
+            <div>
+                <label for="szoveg_szin">Szövegszín:</label><br>
+                <input type="color" name="szoveg_szin" id="szoveg_szin">
+            </div>
+            <div>
+                <label for="hatter_szin">Háttérszín:</label><br>
+                <input type="color" name="hatter_szin" id="hatter_szin">
+            </div>
+            <div class="gomb">
+                <button id="alap">Alaphelyzet</button><br>
+                <button id="kedvencAdd">Hozzáadás kedvencekhez</button>
+            </div>
+            <div id="kedvnecek">
+                <select name="kedvencek_lista" id="kedvencek_lista">
+                    
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <h2>Előnézet</h2>
+        <div id="szoveg_ki">
+        </div>
+    </div>
+</body>
+</html>

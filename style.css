@@ -1,0 +1,35 @@
+.inputs{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(160, 160, 160);
+    border-radius: 15px;
+}
+.inputs_margins{
+    padding: 20px;
+}
+input{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.main{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main > div{
+    padding: 10px;
+}
+#szoveg_hiba{
+    color : red;
+    font-weight: bold;
+}
+#szoveg_ki{
+    text-align: center;
+}
+.gomb{
+    text-align: center;
+}
+#kedvencek_lista{
+    width: 100%;
+}
